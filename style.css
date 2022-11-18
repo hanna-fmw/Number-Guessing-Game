@@ -136,32 +136,6 @@ footer button:active {
 	display: none;
 }
 
-
-
-.home-btn {
-	text-decoration: none;
-	position: absolute;
-	top: 30rem;
-	left: 30vw;
-	padding: 10rem 20rem;
-	color: white;
-	background-color: black;
-	border-radius: 15rem;
-	font-size: 10rem;
-	font-family: inherit;
-	}
-
-	.home-btn:hover {
-		transform: scale(0.98);
-		color: white;
-	
-	}
-
-	.home-btn:active {
-		transform: scale(0.9);
-	}
-
-
 @media (max-width: 500px) {
 	.input {
 		display: flex;
