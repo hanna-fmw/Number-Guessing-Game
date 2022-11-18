@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&Inter:wght@200;400;700;900&family=Lato:wght@900&family=Open+Sans&family=Roboto+Mono:wght@400;600&family=Roboto+Slab:wght@600&family=Roboto:wght@400;900&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html {
+	font-size: 6.25%;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	background-color: white;
+	font-size: 15rem;
+}
+.container {
+	margin: auto;
+	transform: translateY(5%);
+	background: #e2f708;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30vw;
+	padding: 50rem 0rem;
+	box-shadow: 0 0 10px #e2f708;
+	border-radius: 10rem;
+	overflow: hidden;
+}
+h2,
+header p {
+	border-bottom: 0.2px solid black;
+	border-color: rgb(205, 208, 211);
+	padding: 10rem;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 15rem;
+}
+
+.input {
+	display: flex;
+	justify-content: space-around;
+	border-style: hidden;
+	padding: 10rem;
+	border-radius: 15rem;
+	margin: 40rem 20rem;
+}
+
+input[type='number'] 
+{
+	width: 80%;
+	text-align: center;
+	color: black;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 0;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.btn
+{
+	padding: 20rem 30rem;
+	color: white;
+	background-color: black;
+	border-radius: 15rem;
+	font-size: 10rem;
+	font-family: inherit;
+}
+
+.btn:hover {
+	cursor: pointer;
+	
+}
+
+.btn:active {
+	transform: scale(0.98);
+}
+
+.previous-guesses {
+	width: 400rem;
+	margin-top: 50rem;
+}
+
+.previous-guesses ul {
+	display: flex;
+	justify-content: space-between;
+	border-top: 0.2px solid black;
+	border-color: rgb(205, 208, 211);
+}
+
+.previous-guesses ul li {
+	margin-top: 20rem;
+	font-size: 12px;
+}
+
+#footer {
+	z-index: 100;
+	}
+
+footer button {
+	padding: 10rem 20rem;
+	color: white;
+	background-color: black;
+	border-radius: 15rem;
+	font-size: 10rem;
+	font-family: inherit;
+}
+
+footer button:hover {
+	cursor: pointer;
+	
+}
+
+footer button:active {
+	transform: scale(0.98);
+}
+
+.hide-input{
+	display: none;
+	}
+
+.hide-guess-btn{
+	display: none;
+}
+
+@media (max-width: 500px) {
+	.input {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
